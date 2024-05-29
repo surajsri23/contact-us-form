@@ -12,9 +12,18 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     // Send the form data using EmailJS
     emailjs.send("service_83rfrip", "Gmail", {
-        from_name: name,
-        from_email: email,
-        message: message
+        from_name: Suraj Srivastav,
+        from_email: softswifts@gmail.com,
+        message: Hello {{to_name}},
+
+You got a new message from {{from_name}}:
+
+Thanks for the contacting
+
+{{message}}
+
+Best wishes,
+softswifts team
     })
     .then(function(response) {
         console.log("SUCCESS!", response.status, response.text);
