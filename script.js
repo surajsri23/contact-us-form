@@ -11,7 +11,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     }
 
     // Send the form data using EmailJS
-    emailjs.send("service_r9dc619", "Gmail", {
+    emailjs.send("service_83rfrip", "Gmail", {
         from_name: name,
         from_email: email,
         message: message
