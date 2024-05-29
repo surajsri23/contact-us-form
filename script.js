@@ -1,5 +1,5 @@
 document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the form from submitting the default way
+    event.preventDefault(); // Prevent the form from submitting the default way nyc
 
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
